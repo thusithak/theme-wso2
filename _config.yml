@@ -5,21 +5,11 @@ version: 2.0.0
 url: https://wso2-dev-ux.github.io
 license: https://github.com/wso2-dev-ux/theme-wso2/blob/master/LICENSE
 
-# Dependencies
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  auto_ids: true
-  
-encoding: UTF-8
-
 # Permalinks
 permalink: pretty
 
 # Server
 baseurl: "/theme-wso2"
-permalink: /:title
 sass:
   sass_dir: _scss
   
