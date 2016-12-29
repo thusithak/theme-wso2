@@ -5,7 +5,7 @@
             {% assign current-page = page.url | split: '/' %}
             {% assign current-page-url = current-page[2] %}
             {% assign current-page-name = current-page[2] | remove: '.html' %}
-            <li class="active"><a href="{{ site.baseurl }}{{ site.documentation }}/{{ current-page-url }}/">{{ current-page-name | replace: '-', ' ' | capitalize }}</a></li>
+            <li class="active"><a href="{{ site.baseurl }}{{ site.documentation }}/{{ current-page-url }}">{{ current-page-name | replace: '-', ' ' | capitalize }}</a></li>
         {% endunless %}
     </ol>
 </div>
