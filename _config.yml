@@ -8,6 +8,8 @@ baseurl: "/theme-wso2"
 permalink: /:title
 sass:
   sass_dir: _scss
+gems:
+  - jekyll-redirect-from
 
 # Custom vars
 documentation: "/demo"
